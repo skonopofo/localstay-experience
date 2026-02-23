@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - LocalStay Experience</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>LocalStay Experience</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="paquetes.html">Paquetes</a></li>
+                <li><a href="experiencias.html">Experiencias</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contacto.html" class="active">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Contacto</h1>
+                <p>
+                    Estamos aquí para ayudarte a crear la experiencia perfecta en Lisboa. Nuestro equipo está 
+                    disponible para responder todas tus preguntas, personalizar tu estancia y asegurarnos de 
+                    que tu viaje sea inolvidable. No dudes en contactarnos.
+                </p>
+            </div>
+        </section>
+
+        <!-- Información de Contacto -->
+        <section class="contact-info-section">
+            <div class="container">
+                <div class="contact-info-grid">
+                    <div class="contact-info-item">
+                        <h3>Dirección</h3>
+                        <p>Rua de Santiago, 12<br>1100-494 Lisboa, Portugal</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <h3>Email</h3>
+                        <p>info@localstayexperience.com</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <h3>Teléfono</h3>
+                        <p>+351 912 345 678</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <h3>Horario de Atención</h3>
+                        <p>Lunes a Viernes<br>9:00 - 18:00</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formulario de Contacto -->
+        <section class="contact-form-section">
+            <div class="container">
+                <h2>Solicita Información</h2>
+                <p class="form-intro">
+                    Completa el siguiente formulario y nos pondremos en contacto contigo lo antes posible 
+                    para ayudarte a planificar tu experiencia en Lisboa.
+                </p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="nombre">Nombre *</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" id="telefono" name="telefono">
+                    </div>
+                    <div class="form-group">
+                        <label for="tipo-paquete">Tipo de Paquete</label>
+                        <select id="tipo-paquete" name="tipo-paquete">
+                            <option value="">Selecciona una opción</option>
+                            <option value="cultural-immersion">Cultural Immersion Package</option>
+                            <option value="premium-localstay">Premium LocalStay Package</option>
+                            <option value="experiencia-individual">Experiencia Individual</option>
+                            <option value="personalizada">Experiencia Personalizada</option>
+                            <option value="informacion-general">Solo información general</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje *</label>
+                        <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Enviar solicitud</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Redes Sociales -->
+        <section class="social-section">
+            <div class="container">
+                <h2>Síguenos en Redes Sociales</h2>
+                <p>Mantente al día con nuestras últimas experiencias y ofertas especiales</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">Facebook</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 LocalStay Experience. Todos los derechos reservados.</p>
+            <p>Rua de Santiago, 12, 1100-494 Lisboa, Portugal</p>
+        </div>
+    </footer>
+</body>
+</html>
